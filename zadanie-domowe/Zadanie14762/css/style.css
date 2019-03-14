@@ -1,0 +1,51 @@
+.count {
+    height:200px; 
+    width:600px;
+    margin:100px;
+    background-color:black;
+    text-align: center;
+    
+  }
+p:before {
+  content: "10";
+  color: white;
+  font-size: 80px;
+  line-height: 250px;
+  animation: scaling 10s 1s infinite;
+}
+
+@keyframes scaling {
+  5% {
+      content: "10";
+  }
+  10% {
+      content: "9";
+  }
+  20% {
+      content: "8";
+  }
+  30% {
+      content: "7";
+  }
+  40% {
+      content: "6";
+  }
+  50% {
+      content: "5";
+  }
+  60% {
+      content: "4";
+  }
+  70% {
+      content: "3";
+  }
+  80% {
+      content: "2";
+  }
+  90% {
+      content: "1";
+  }
+  100% {
+      content: "I LOVE CSS";
+  }
+}
