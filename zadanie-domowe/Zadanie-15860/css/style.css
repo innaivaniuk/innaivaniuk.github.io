@@ -1,0 +1,31 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+i {
+    color:orange;
+    font-size: 2.5rem;
+    
+}
+
+.i-rounded{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color: #e7e5e5;
+    text-align: center;
+    line-height: 50px;
+}
+
+.skills {
+    border-bottom: 1px solid #e7e5e5;
+    width:150px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+}
+
