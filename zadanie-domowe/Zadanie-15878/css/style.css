@@ -21,6 +21,9 @@ button {
     border: 1px solid rgb(204, 202, 202) !important;
     box-shadow: none !important;
 }
+div {
+    padding:20px;
+}
 
 
 
